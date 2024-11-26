@@ -1,0 +1,83 @@
+/*!! custom them */
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+/*!! start navbar  */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+}
+.navbar ul li {
+    margin-left: 10px;
+}
+ button{
+    background-color: darkslateblue;
+    color: #fff;
+    padding-inline:4px ;
+    padding-block:5px ;
+    border: 2px solid darkslateblue;
+    border-radius: 3px;
+}
+
+.navbar ul li button:hover{
+    background-color:rgb(99, 88, 172) ;
+}
+
+/*^^ main navbar  */
+.main{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.main .left span{
+    background-color: darkslateblue;
+    color: #fff;
+    padding-inline: 5px;
+    padding-block: 3px;
+    border-radius: 3px;
+}
+.main .left span a{
+  color: #fff;
+}
+.main .left h4{
+    text-transform:capitalize;
+    color:rgb(39, 29, 102) ;
+}
+.main .left .icon span{
+   color: black;
+   background-color: #fff;
+   margin-top: 10px;
+}
+.field{
+    margin-block:20px ;
+}
+.icon ul {
+    display: flex;
+    padding: 0;
+ }
+
+
+
+
+
+
+.main .right {
+    width: 50%;
+    /* height: 50%; */
+}
+.main .right img{
+    width: 100%;
+}
